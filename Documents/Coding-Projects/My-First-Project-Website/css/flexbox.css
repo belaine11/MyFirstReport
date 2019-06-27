@@ -1,0 +1,55 @@
+.flex-container {
+	padding: 10px;
+	background: rgb(233, 16, 16);
+  border-radius: 5px;
+	margin: 45px auto;
+  box-shadow: 0 1.5px 0 0 rgba(0,0,0,0.1);
+}
+
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 500px;
+    align-items: center
+}
+
+.item-6 {
+    display: flex;
+    order: -1;
+}
+
+.header {
+    padding: 60px;
+    text-align: center;
+    background: #1abc9c;
+    color: whitesmoke;
+    font-size: 24px;
+}
+
+.dog-picture {
+    display: flexbox;
+    align-items: center
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh
+}
+/* Media Queries */
+
+@media (min-width: 769)
+
+.header, 
+.main-nav {
+    display: flex;
+}
+
+.main {
+    flex-direction: column;
+
+}
+@media (min-width: 1025 px) {
+
+}
